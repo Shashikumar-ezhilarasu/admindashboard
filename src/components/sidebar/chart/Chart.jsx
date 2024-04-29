@@ -2,8 +2,8 @@ import "/Users/shashikumarezhil/Documents/admindashboard/src/components/sidebar/
 
 const Chart = () => {
   return (
-    <div>
-      
+    <div className="chart">
+      charts
     </div>
   )
 }

@@ -4,6 +4,8 @@ import "/Users/shashikumarezhil/Documents/admindashboard/src/pages/home/home.scs
 import Navbar from "../../components/navbar/Navbar"
 import { Widgets } from "@mui/icons-material";
 import Widget from "../../components/widgets/Widget";
+import Featured from "../../components/sidebar/featured/Featured";
+import Chart from "../../components/sidebar/chart/Chart";
 const Home = () => {
   return (
     <div className='home'>
@@ -19,7 +21,8 @@ const Home = () => {
       </div>
 
       <div className="charts">
-        
+        <Featured />
+        <Chart />
       </div>
       </div>
     </div>
