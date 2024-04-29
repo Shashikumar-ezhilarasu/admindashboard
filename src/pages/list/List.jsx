@@ -1,11 +1,21 @@
 import "/Users/shashikumarezhil/Documents/admindashboard/src/pages/list/list.scss"
 
+
+import Sidebar from "../../components/sidebar/Sidebar"
+import Navbar from "../../components/navbar/Navbar"
+import Datatable from "../../components/datatable/Datatable"
+
+
 const List = () => {
-    return (
-      <div className='home'>
-        <h1 className="title">List page</h1>
+  return (
+    <div className="list">
+      <Sidebar/>
+      <div className="listContainer">
+        <Navbar/>
+        <Datatable />
       </div>
-    )
-  }
-  
-  export default List
+    </div>
+  )
+}
+
+export default List

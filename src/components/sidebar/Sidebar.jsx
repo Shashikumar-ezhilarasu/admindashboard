@@ -11,12 +11,16 @@ import StorageIcon from '@mui/icons-material/Storage';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import LogoutIcon from '@mui/icons-material/Logout';
+import { Link } from 'react-router-dom';
+
+
 
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-        <div className="top">
+        <div className="top"><Link to ='/'>
             <span className='logo'>myAdmin</span>
+            </Link>
             </div>
         <hr />
         <div className="center">
