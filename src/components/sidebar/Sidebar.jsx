@@ -18,7 +18,7 @@ import { Link } from 'react-router-dom';
 const Sidebar = () => {
   return (
     <div className='sidebar'>
-        <div className="top"><Link to ='/'>
+        <div className="top"><Link to="/" style={{ textDecoration: "none" }}>
             <span className='logo'>myAdmin</span>
             </Link>
             </div>
@@ -27,23 +27,32 @@ const Sidebar = () => {
             <ul>
                 <p className="title">MAIN</p>
 
+                <Link to="/" style={{ textDecoration: "none" }}>
                 <li>
                     <DashboardIcon className='icon'/>
                     <span>Dashboard</span>
                 </li>
+                </Link>
                 <p className="title">LISTS</p>
+                <Link to="/users" style={{ textDecoration: "none" }}>
                 <li>
                     <Person2Icon className='icon'/>
                     <span>Users</span>
                 </li>
+                </Link>
+                <Link to="/products" style={{ textDecoration: "none" }}>
                 <li>
                     <StoreIcon className='icon'/>
                     <span>Products</span>
                 </li>
+                </Link>
+
+                <Link to="/products" style={{ textDecoration: "none" }}>
                 <li>
                     <CreditCardIcon className='icon'/>
                     <span>Orders</span>
                 </li>
+                </Link>
                 <li>
                     <LocalShippingIcon className='icon'/>
                     <span>Delivery</span>
