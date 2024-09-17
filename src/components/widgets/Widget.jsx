@@ -16,7 +16,7 @@ const Widget = ({type}) => {
     switch(type){
       case "user":
         data ={
-        title:"USERS",
+        title:"Total no of Students",
         isMoney: false,
         link:"see all users",
         icon:
@@ -26,7 +26,7 @@ const Widget = ({type}) => {
 
         case "user":
           data ={
-          title:"USERS",
+          title:"Participants",
           isMoney: false,
           link:"see all users",
           icon:
@@ -36,7 +36,7 @@ const Widget = ({type}) => {
 
           case "order":
             data ={
-            title:"USERS",
+            title:"Participants",
             isMoney: false,
             link:"View all users",
             icon:

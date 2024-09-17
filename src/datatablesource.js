@@ -26,7 +26,7 @@ export const userColumns = [
     },
     {
       field: "status",
-      headerName: "Status",
+      headerName: "Reg-Status",
       width: 160,
       renderCell: (params) => {
         return (

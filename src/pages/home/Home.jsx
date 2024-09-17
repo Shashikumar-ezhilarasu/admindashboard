@@ -27,11 +27,12 @@ const Home = () => {
         <Chart />
       </div>
       <div className="listContainer">
-        <div className="listTitle">Latest transcations</div>
+        <div className="listTitle">Latest Registerations</div>
         <Table />
       </div>
       </div>
     </div>
+               
   )
 }
 
